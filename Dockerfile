@@ -27,6 +27,7 @@ COPY test.py .
 ENV PATH="/opt/venv/bin:$PATH"
 
 CMD ["python", "test.py"]
+
 # RUN python manage.py collectstatic --no-input
 
 # CMD gunicorn --bind :8080 --worker-class gevent config.wsgi:application --timeout 300
