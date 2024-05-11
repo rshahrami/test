@@ -1,4 +1,4 @@
-FROM python:3.10.8 as base
+FROM docker.arvancloud.ir/python:3.10.8 as base
 
 ENV PYTHONUNBUFFERED 1
 RUN python -m venv /opt/venv
