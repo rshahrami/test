@@ -11,7 +11,7 @@ RUN pip install wheel
 RUN pip install -r requirements.txt
 
 
-FROM python:3.10.8-slim-buster
+FROM docker.arvancloud.ir/python:3.10.8-slim-buster
 
 ENV PYTHONUNBUFFERED 1
 
